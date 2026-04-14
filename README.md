@@ -49,3 +49,11 @@ npm run dev:frontend
 
 - Expand tests for auth and task flows
 - Harden token refresh and CSRF protection if the app moves beyond the assignment scope
+
+echo "# Primetrade.ai" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/parthkavad54/Primetrade.ai.git
+git push -u origin main
